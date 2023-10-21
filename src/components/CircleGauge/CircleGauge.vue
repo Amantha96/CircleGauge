@@ -1,4 +1,3 @@
-<!-- src/components/CircleGauge.vue -->
 <template>
     <div class="circle-gauge">
       <svg :width="size" :height="size" viewBox="0 0 100 100">
