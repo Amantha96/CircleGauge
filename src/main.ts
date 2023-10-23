@@ -1,5 +1,4 @@
-// src/main.ts
 import { createApp } from 'vue';
-import App from './App.vue'; // Assuming you have an App.vue as the root component
+import App from './App.vue'; 
 
-createApp(App).mount('#app'); // Mount the Vue app to an element with the id "app"
+createApp(App).mount('#app'); 

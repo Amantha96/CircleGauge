@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view>
+      <CircleViewVue/>
+    </router-view>
   </div>
 </template>
 
-<script>
+<script lang="ts" type="module">
+import  CircleViewVue from './views/CircleView.vue';
+
 export default {
-  name: 'App',
+    name: 'App',
+    components: { CircleViewVue }
 };
 </script>
